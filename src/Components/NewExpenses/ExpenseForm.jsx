@@ -5,7 +5,7 @@ const ExpenseForm = (props) => {
     //: -----------------------Stroring tittle entered data from the user
     const [enteredTitle, setEnterdTitle] = useState('');
     const [enteredDate, setSelectedDate ] = useState('');
-    const [enteredAmount, setEnteredAmount ] = useState('');
+    const [enteredAmount, setEnteredAmount ] = useState('kj');
 
     //1: ----------------------Title change event handling using input values
     const tittleChangeHandler = (e) => {
